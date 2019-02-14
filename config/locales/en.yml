@@ -2,7 +2,9 @@ en:
   static_pages:
     home:
       home: "Home"
-      sample: "Sample App"
+      login: "Login"
+      sample: "Welcome to the Sample App"
+      sign_up: "Sign up now!"
       ruby: "Ruby on Rails Tutorial"
       ruby_link: "https://www.railstutorial.org/"
       up: "This is the home page for the %{ruby_link} sample application."
@@ -34,5 +36,17 @@ en:
       up: "Get help on the Ruby on Rails Tutorial at the %{rails_help_link}
         To get help on this sample app, see the %{bookhelp_link}."
   layouts:
-    application:
-      rubyrails: "Ruby on Rails Tutorial Sample App"
+    _footer:
+      new: "News"
+      new_link: "http://news.railstutorial.org/"
+      ruby: "Ruby on Rails Tutorial"
+      ruby_link: "https://www.railstutorial.org/"
+      michael: "Michael Hartl"
+      michael_link: "http://www.michaelhartl.com/"
+      up: "The %{ruby_link} by %{michael_link}"
+    _header:
+      sample: "Sample app"
+  users:
+    new:
+      sign_up: "Sign up"
+      up: "This will be a signup page for new users."
