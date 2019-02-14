@@ -4,25 +4,35 @@ en:
       home: "Home"
       sample: "Sample App"
       ruby: "Ruby on Rails Tutorial"
+      ruby_link: "https://www.railstutorial.org/"
       up: "This is the home page for the %{ruby_link} sample application."
     about:
       about: "About"
       ruby: "Ruby on Rails Tutorial"
+      ruby_link: "http://www.railstutorial.org/"
       book: "book"
+      book_link: "http://www.railstutorial.org/book"
       ss: "screencast series"
+      ss_link: "http://screencasts.railstutorial.org/"
       rubyonrails: "Ruby on Rails"
+      rubyonrails_link: "http://www.railstutorial.org/"
       up: "The %{ruby_link} is a %{book_link} and %{ss_link} to teach web development with
-        %{rubyonrails_link}. This is the sample application for the tutorial."
+        %{rubyonrails_link} This is the sample application for the tutorial."
     contact:
       contact: "Contact"
       contactpage: "contact page"
+      contactpage_link: "https://www.railstutorial.org/contact"
+      up: "Contact the Ruby on Rails Tutorial about the sample app at the
+      %{contactpage_link}"
     help:
       help: "Help"
       ruby: "Ruby on Rails Tutorial"
-      rails: "Rails Tutorial help section"
-      up: "Get help on the Ruby on Rails Tutorial at the %{ruby_link}
-        To get help on this sample app, see the %{rails_link} book."
+      rails_help: "Rails Tutorial help section"
+      rails_help_link: "https://www.railstutorial.org/help"
+      bookhelp: "Ruby on Rails Tutorial book"
+      bookhelp_link: "https://www.railstutorial.org/book"
+      up: "Get help on the Ruby on Rails Tutorial at the %{rails_help_link}
+        To get help on this sample app, see the %{bookhelp_link}."
   layouts:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
-
