@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= raw t("layouts._footer.up",
+      ruby_link: link_to(t("layouts._footer.ruby"), t("layouts._footer.ruby_link")),
+      michael_link: link_to(t("layouts._footer.michael"), t("layouts._footer.michael_link"))) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to(t(".about"), about_path) %></li>
+      <li><%= link_to(t(".contact"), contact_path) %></li>
+      <li><%= link_to(t("layouts._footer.new"), t("layouts._footer.new_link")) %></li>
+    </ul>
+  </nav>
+</footer>
