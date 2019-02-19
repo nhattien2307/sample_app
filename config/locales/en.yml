@@ -1,4 +1,6 @@
 en:
+  err: "The form contains %{count_err}."
+  message_err: "Sorry, no data found"
   static_pages:
     home:
       home: "Home"
@@ -46,7 +48,18 @@ en:
       up: "The %{ruby_link} by %{michael_link}"
     _header:
       sample: "Sample app"
+  helpers:
+    application_helper:
+      rubyrails: "Ruby on Rails Tutorial Sample App"
   users:
     new:
       sign_up: "Sign up"
       up: "This will be a signup page for new users."
+      create_new: "Create my account"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
