@@ -1,10 +1,13 @@
 en:
+  user: "Users"
+  remember_me: Remember me on this computer
   new_user: New user?
   setting: "Settings"
   profle: "Profile"
   log_out: "Log out"
   log_in: "Log in"
   error_sessions: "Invalid email/password combination"
+  no_data: "Sorry, no data found"
   err: "The form contains %{count_err}."
   message_err: "Sorry, no data found"
   account: Account

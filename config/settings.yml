@@ -7,4 +7,5 @@ user:
     min_length: 6
   size:
     size: 80
-
+session:
+  remember_me: "1"
