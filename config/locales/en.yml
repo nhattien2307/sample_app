@@ -1,4 +1,12 @@
 en:
+  you_sure: "You sure?"
+  rails_logo: "Rails logo"
+  micropost_feed: "Micropost Feed"
+  view_profile: "view my profile"
+  micropost_created: "Micropost created!"
+  count_micro: "%{count} micropost"
+  with_posts: "Microposts (%{count})"
+  posted: "Posted"
   expired: "Password reset has expired."
   pass_reset: "Password has been reset."
   not_empty: "can't be empty"
@@ -101,13 +109,6 @@ en:
       sign_up: "Sign up"
       up: "This will be a signup page for new users."
       create_new: "Create my account"
-  activerecord:
-    attributes:
-      user:
-        name: "Name"
-        email: "Email"
-        password: "Password"
-        password_confirmation: "Password Confirmation"
   user_mailer:
     account_text:
       hi: "Hi"
@@ -117,3 +118,37 @@ en:
       hi: "Hi"
       status: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+  micropost:
+    picture:
+      max_size: "should be less than 5MB"
+      accept: "image/jpeg,image/gif,image/png"
+    new_compose: "Compose new micropost..."
+    post: "Post"
+    delete: "Delete"
+    posted: "Posted %{date} ago."
+  controllers:
+    concerns:
+      welcome: "Welcome to the Sample App"
+      update_profile: "Profile updated"
+      delete_user: "User deleted"
+      unsuccessfully_user: "The user was unsuccessfully deleted"
+      please_lg: "Please log in."
+      check_email: "Please check your email to activate your account."
+      account_activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+      sent_password: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+      pass_reset: "Password has been reset."
+      pass_reset_expired: "Password reset has expired."
+      email_not_found: "Email address not found"
+      empty: "can't be empty"
+      micropost_created: "Micropost created!"
+      micropost_delete: "Micropost deleted"
+      cant_delete: "Micropost can't be deleted"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
