@@ -1,6 +1,13 @@
 en:
+  new_user: New user?
+  setting: "Settings"
+  profle: "Profile"
+  log_out: "Log out"
+  log_in: "Log in"
+  error_sessions: "Invalid email/password combination"
   err: "The form contains %{count_err}."
   message_err: "Sorry, no data found"
+  account: Account
   static_pages:
     home:
       home: "Home"
