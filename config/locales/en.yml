@@ -1,4 +1,16 @@
 en:
+  edit: "Edit user"
+  save: "Save changes"
+  update: Update your profile
+  change: Change
+  create_button: "Create my account"
+  all_user: "All Users"
+  you_sure: "You sure?"
+  delete: "delete"
+  unsuccessfully_user: "The user was unsuccessfully deleted"
+  delete_user: "User deleted"
+  login_plz: "Please log in."
+  profile_updated: "Profile updated"
   user: "Users"
   remember_me: Remember me on this computer
   new_user: New user?
