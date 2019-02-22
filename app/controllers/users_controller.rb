@@ -50,6 +50,34 @@ class UsersController < ApplicationController
     end
   end
 
+  def following
+    @title = t "micropost.following"
+    @user = User.find_by params[:id]
+    if @user
+      @users = @user.following.paginate page: params[:page],
+      per_page: Settings.micropost.per_page
+  end
+      render "show_follow"
+    else
+      flash[:danger] = t "controllers.concerns.an_error"
+      redirect_to root_path
+    end
+  end
+
+  def followers
+    @title = t "micropost.followers"
+    @user = User.find_by params[:id]
+    if @user
+      @users = @user.followers.paginate page: params[:page],
+      per_page: Settings.micropost.per_page
+  end
+      render "show_follow"
+    else
+      flash[:danger] = t "controllers.concerns.an_error"
+      redirect_to root_path
+    end
+  end
+
   private
 
   def load_user

@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
   root "static_pages#home"
-  resources :users
+
   resources :account_activations, only: :edit
   resources :password_resets, only: %i(new create edit update)
   resources :microposts, only: %i(create destroy)
+  resources :relationships, only: %i(create destroy)
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
 
   get "password_resets/new"
   get "password_resets/edit"
