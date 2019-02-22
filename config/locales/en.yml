@@ -126,6 +126,12 @@ en:
     post: "Post"
     delete: "Delete"
     posted: "Posted %{date} ago."
+    following: "following"
+    followers: "followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
+    view_profile: "view my profile"
+    microposts: "Microposts:"
   controllers:
     concerns:
       welcome: "Welcome to the Sample App"
@@ -145,6 +151,7 @@ en:
       micropost_created: "Micropost created!"
       micropost_delete: "Micropost deleted"
       cant_delete: "Micropost can't be deleted"
+      an_error: "An error has occurred, please try again!"
   activerecord:
     attributes:
       user:
