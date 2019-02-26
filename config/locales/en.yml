@@ -1,4 +1,13 @@
 en:
+  text: find me in app/views/user_mailer/password_reset.html.erb
+  pass_reset: User#password_reset
+  account_activation: "Account activation"
+  err_link: "Invalid activation link"
+  account_active: "Account activated!"
+  account_no_active: "Account not actived"
+  session_error: "Invalid email/password combination"
+  sample: "Sample app"
+  check: "Please check your email to activate your account."
   edit: "Edit user"
   save: "Save changes"
   update: Update your profile
@@ -85,3 +94,12 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password Confirmation"
+  user_mailer:
+    account_text:
+      hi: "Hi"
+      status: "Welcome to the Sample App! Click on the link below to activate your account:"
+    account_html:
+      sample_app: "Sample App"
+      hi: "Hi"
+      status: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
