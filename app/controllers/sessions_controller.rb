@@ -24,6 +24,16 @@ class SessionsController < ApplicationController
 
   private
 
+  def activated user
+    log_in user
+    if params[:session][:remember_me] == Settings.session.remember_me
+      remember @user
+    else
+      forget @user
+    end
+    redirect_back_or @user
+  end
+
   def load_user
     @user = User.find_by email: params[:session][:email].downcase
     return if @user

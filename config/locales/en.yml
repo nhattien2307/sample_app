@@ -1,4 +1,18 @@
 en:
+  expired: "Password reset has expired."
+  pass_reset: "Password has been reset."
+  not_empty: "can't be empty"
+  err_email: "Email address not found"
+  send_email: "Email sent with password reset instructions"
+  update_pass: "Update password"
+  resetpw: "Reset password"
+  pwtext2: "If you did not request your password to be reset, please ignore this email and
+  your password will stay as it is."
+  pwtext: "This link will expire in two hours."
+  tolink: "To reset your password click the link below:"
+  resetpass: "Password reset"
+  forgotpass: "Forgot password"
+  forgot: "(forgot password)"
   text: find me in app/views/user_mailer/password_reset.html.erb
   pass_reset: User#password_reset
   account_activation: "Account activation"
