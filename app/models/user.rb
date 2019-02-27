@@ -17,6 +17,7 @@ class User < ApplicationRecord
   before_create :create_activation_digest
 
   has_secure_password
+  has_many :microposts, dependent: :destroy
 
   scope :activated, ->{where activated: true}
 

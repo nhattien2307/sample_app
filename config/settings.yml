@@ -13,3 +13,8 @@ user:
 session:
   remember_me: "1"
 time_reset: 2
+micropost:
+  maximum_length: 140
+  per_page: 5
+picture:
+  picture_size: 5
